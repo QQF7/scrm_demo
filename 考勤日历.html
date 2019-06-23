@@ -1,0 +1,838 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>考勤日历</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=1600, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/考勤日历/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="https://demo.axureux.com/fontawesome/5.7.2/pro/css/all.min.css" type="text/css" rel="stylesheet"/>
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/考勤日历/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (顶部通栏(面包屑)) -->
+
+      <!-- 顶部通栏 (动态面板) -->
+      <div id="u66903" class="ax_default" data-label="顶部通栏">
+        <div id="u66903_state0" class="panel_state" data-label="State1" style="">
+          <div id="u66903_state0_content" class="panel_state_content">
+
+            <!-- 顶部背景 (矩形) -->
+            <div id="u66904" class="ax_default _默认样式" data-label="顶部背景">
+              <img id="u66904_img" class="img " src="images/系统首页/顶部背景_u6931.png"/>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u66905" class="ax_default _默认样式" title="系统首页">
+              <img id="u66905_img" class="img " src="images/常用组件/u1129.png"/>
+              <div id="u66905_text" class="text ">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- 操作按纽 (动态面板) -->
+            <div id="u66906" class="ax_default" data-label="操作按纽">
+              <div id="u66906_state0" class="panel_state" data-label="State1" style="">
+                <div id="u66906_state0_content" class="panel_state_content">
+
+                  <!-- Unnamed (矩形) -->
+                  <div id="u66907" class="ax_default _默认样式" title="刷新页面">
+                    <img id="u66907_img" class="img " src="images/系统首页/u6934.png"/>
+                    <div id="u66907_text" class="text ">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (矩形) -->
+                  <div id="u66908" class="ax_default _默认样式" title="返回上页">
+                    <img id="u66908_img" class="img " src="images/系统首页/u6934.png"/>
+                    <div id="u66908_text" class="text ">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u66909" class="ax_default _默认样式" title="向后切换">
+              <img id="u66909_img" class="img " src="images/系统首页/u6936.png"/>
+              <div id="u66909_text" class="text ">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u66910" class="ax_default _默认样式" title="向后切换">
+              <img id="u66910_img" class="img " src="images/系统首页/u6937.png"/>
+              <div id="u66910_text" class="text ">
+                <p><span>一级分类</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u66911" class="ax_default _默认样式" title="向后切换">
+              <img id="u66911_img" class="img " src="images/系统首页/u6936.png"/>
+              <div id="u66911_text" class="text ">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u66912" class="ax_default _默认样式" title="向后切换">
+              <img id="u66912_img" class="img " src="images/系统首页/u6939.png"/>
+              <div id="u66912_text" class="text ">
+                <p><span>页面标题</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66913" class="ax_default _默认样式">
+        <img id="u66913_img" class="img " src="images/考勤日历/u66913.png"/>
+      </div>
+
+      <!-- Unnamed (版权信息) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66915" class="ax_default _默认样式">
+        <img id="u66915_img" class="img " src="images/使用帮助/u169.png"/>
+        <div id="u66915_text" class="text ">
+          <p><span>Copyright © </span><a id="u66916" class="link" title="点击打开www.AxureUX.com"><span>www.AxureUX.com</span></a><span>, All Rights Reserved.</span></p><p><span>助你快速打造友好美观的交互原型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u66917" class="ax_default" data-left="40" data-top="148" data-width="1221" data-height="926">
+
+        <!-- Unnamed (组 合) -->
+        <div id="u66918" class="ax_default" data-left="40" data-top="148" data-width="1221" data-height="926">
+
+          <!-- Unnamed (表格) -->
+          <div id="u66919" class="ax_default">
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66920" class="ax_default _默认样式">
+              <img id="u66920_img" class="img " src="images/跟进对象/u48818.png"/>
+              <div id="u66920_text" class="text ">
+                <p><span>周一</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66921" class="ax_default _默认样式">
+              <img id="u66921_img" class="img " src="images/跟进对象/u48818.png"/>
+              <div id="u66921_text" class="text ">
+                <p><span>周二</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66922" class="ax_default _默认样式">
+              <img id="u66922_img" class="img " src="images/跟进对象/u48818.png"/>
+              <div id="u66922_text" class="text ">
+                <p><span>周三</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66923" class="ax_default _默认样式">
+              <img id="u66923_img" class="img " src="images/跟进对象/u48818.png"/>
+              <div id="u66923_text" class="text ">
+                <p><span>周四</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66924" class="ax_default _默认样式">
+              <img id="u66924_img" class="img " src="images/跟进对象/u48818.png"/>
+              <div id="u66924_text" class="text ">
+                <p><span>周五</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66925" class="ax_default _默认样式">
+              <img id="u66925_img" class="img " src="images/跟进对象/u48818.png"/>
+              <div id="u66925_text" class="text ">
+                <p><span>周六</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66926" class="ax_default _默认样式">
+              <img id="u66926_img" class="img " src="images/日程管理/u64546.png"/>
+              <div id="u66926_text" class="text ">
+                <p><span>周日</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66927" class="ax_default _默认样式">
+              <img id="u66927_img" class="img " src="images/日程管理/u64547.png"/>
+              <div id="u66927_text" class="text ">
+                <p><span>01&nbsp; 愚人节</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66928" class="ax_default _默认样式">
+              <img id="u66928_img" class="img " src="images/日程管理/u64547.png"/>
+              <div id="u66928_text" class="text ">
+                <p><span style="font-family:'微软雅黑';font-weight:400;">02&nbsp; </span><span style="font-family:'微软雅黑';font-weight:400;">廿七</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66929" class="ax_default _默认样式">
+              <img id="u66929_img" class="img " src="images/日程管理/u64547.png"/>
+              <div id="u66929_text" class="text ">
+                <p><span style="font-family:'微软雅黑';font-weight:400;">03&nbsp; </span><span style="font-family:'微软雅黑';font-weight:400;">廿八</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66930" class="ax_default _默认样式">
+              <img id="u66930_img" class="img " src="images/日程管理/u64547.png"/>
+              <div id="u66930_text" class="text ">
+                <p><span style="font-family:'微软雅黑';font-weight:400;">04&nbsp; </span><span style="font-family:'微软雅黑';font-weight:400;">廿九</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66931" class="ax_default _默认样式">
+              <img id="u66931_img" class="img " src="images/日程管理/u64547.png"/>
+              <div id="u66931_text" class="text ">
+                <p><span>05&nbsp; 清明节</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66932" class="ax_default _默认样式">
+              <img id="u66932_img" class="img " src="images/日程管理/u64547.png"/>
+              <div id="u66932_text" class="text ">
+                <p><span>06&nbsp; 初二</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66933" class="ax_default _默认样式">
+              <img id="u66933_img" class="img " src="images/日程管理/u64553.png"/>
+              <div id="u66933_text" class="text ">
+                <p><span>07&nbsp; 初三</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66934" class="ax_default _默认样式">
+              <img id="u66934_img" class="img " src="images/日程管理/u64547.png"/>
+              <div id="u66934_text" class="text ">
+                <p><span style="font-family:'微软雅黑';font-weight:400;">08&nbsp; </span><span style="font-family:'微软雅黑';font-weight:400;">初四</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66935" class="ax_default _默认样式">
+              <img id="u66935_img" class="img " src="images/日程管理/u64547.png"/>
+              <div id="u66935_text" class="text ">
+                <p><span>09&nbsp; 初五</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66936" class="ax_default _默认样式">
+              <img id="u66936_img" class="img " src="images/日程管理/u64547.png"/>
+              <div id="u66936_text" class="text ">
+                <p><span>10&nbsp; 初六</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66937" class="ax_default _默认样式">
+              <img id="u66937_img" class="img " src="images/日程管理/u64547.png"/>
+              <div id="u66937_text" class="text ">
+                <p><span style="font-family:'微软雅黑';font-weight:400;">11</span><span style="font-family:'微软雅黑';font-weight:400;">&nbsp; </span><span style="font-family:'微软雅黑';font-weight:400;">初七</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66938" class="ax_default _默认样式">
+              <img id="u66938_img" class="img " src="images/日程管理/u64547.png"/>
+              <div id="u66938_text" class="text ">
+                <p><span>12&nbsp; 初八</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66939" class="ax_default _默认样式">
+              <img id="u66939_img" class="img " src="images/日程管理/u64547.png"/>
+              <div id="u66939_text" class="text ">
+                <p><span>13&nbsp; 初九</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66940" class="ax_default _默认样式">
+              <img id="u66940_img" class="img " src="images/日程管理/u64553.png"/>
+              <div id="u66940_text" class="text ">
+                <p><span>14&nbsp; 初十</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66941" class="ax_default _默认样式">
+              <img id="u66941_img" class="img " src="images/日程管理/u64547.png"/>
+              <div id="u66941_text" class="text ">
+                <p><span style="font-family:'微软雅黑';font-weight:400;">15&nbsp; </span><span style="font-family:'微软雅黑';font-weight:400;">十一</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66942" class="ax_default _默认样式">
+              <img id="u66942_img" class="img " src="images/日程管理/u64547.png"/>
+              <div id="u66942_text" class="text ">
+                <p><span>16&nbsp; 十二</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66943" class="ax_default _默认样式">
+              <img id="u66943_img" class="img " src="images/日程管理/u64547.png"/>
+              <div id="u66943_text" class="text ">
+                <p><span>17&nbsp; 十三</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66944" class="ax_default _默认样式">
+              <img id="u66944_img" class="img " src="images/日程管理/u64547.png"/>
+              <div id="u66944_text" class="text ">
+                <p><span>18 十四</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66945" class="ax_default _默认样式">
+              <img id="u66945_img" class="img " src="images/日程管理/u64547.png"/>
+              <div id="u66945_text" class="text ">
+                <p><span>19&nbsp; 十五</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66946" class="ax_default _默认样式">
+              <img id="u66946_img" class="img " src="images/日程管理/u64547.png"/>
+              <div id="u66946_text" class="text ">
+                <p><span>20&nbsp; 谷雨</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66947" class="ax_default _默认样式">
+              <img id="u66947_img" class="img " src="images/日程管理/u64553.png"/>
+              <div id="u66947_text" class="text ">
+                <p><span>21&nbsp; 十七</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66948" class="ax_default _默认样式">
+              <img id="u66948_img" class="img " src="images/日程管理/u64568.png"/>
+              <div id="u66948_text" class="text ">
+                <p><span>22&nbsp; 地球日</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66949" class="ax_default _默认样式">
+              <img id="u66949_img" class="img " src="images/日程管理/u64547.png"/>
+              <div id="u66949_text" class="text ">
+                <p><span>23&nbsp; 十九</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66950" class="ax_default _默认样式">
+              <img id="u66950_img" class="img " src="images/日程管理/u64547.png"/>
+              <div id="u66950_text" class="text ">
+                <p><span>24&nbsp; 二十</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66951" class="ax_default _默认样式">
+              <img id="u66951_img" class="img " src="images/日程管理/u64547.png"/>
+              <div id="u66951_text" class="text ">
+                <p><span style="font-family:'微软雅黑';font-weight:400;">25 </span><span style="font-family:'微软雅黑';font-weight:400;">廿一</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66952" class="ax_default _默认样式">
+              <img id="u66952_img" class="img " src="images/日程管理/u64547.png"/>
+              <div id="u66952_text" class="text ">
+                <p><span style="font-family:'微软雅黑';font-weight:400;">26&nbsp;&nbsp; </span><span style="font-family:'微软雅黑';font-weight:400;">廿二</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66953" class="ax_default _默认样式">
+              <img id="u66953_img" class="img " src="images/日程管理/u64547.png"/>
+              <div id="u66953_text" class="text ">
+                <p><span style="font-family:'微软雅黑';font-weight:400;">27&nbsp; </span><span style="font-family:'微软雅黑';font-weight:400;">廿三</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66954" class="ax_default _默认样式">
+              <img id="u66954_img" class="img " src="images/日程管理/u64553.png"/>
+              <div id="u66954_text" class="text ">
+                <p><span style="font-family:'微软雅黑';font-weight:400;">28&nbsp; </span><span style="font-family:'微软雅黑';font-weight:400;">廿四</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66955" class="ax_default _默认样式">
+              <img id="u66955_img" class="img " src="images/日程管理/u64575.png"/>
+              <div id="u66955_text" class="text ">
+                <p><span>29&nbsp; 廿五</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66956" class="ax_default _默认样式">
+              <img id="u66956_img" class="img " src="images/日程管理/u64575.png"/>
+              <div id="u66956_text" class="text ">
+                <p><span style="font-family:'微软雅黑';font-weight:400;">30&nbsp; </span><span style="font-family:'微软雅黑';font-weight:400;">廿六</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66957" class="ax_default _默认样式">
+              <img id="u66957_img" class="img " src="images/日程管理/u64575.png"/>
+              <div id="u66957_text" class="text ">
+                <p><span>01&nbsp; 劳动节</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66958" class="ax_default _默认样式">
+              <img id="u66958_img" class="img " src="images/日程管理/u64575.png"/>
+              <div id="u66958_text" class="text ">
+                <p><span>02&nbsp; 廿八</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66959" class="ax_default _默认样式">
+              <img id="u66959_img" class="img " src="images/日程管理/u64575.png"/>
+              <div id="u66959_text" class="text ">
+                <p><span>03&nbsp; 廿九</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66960" class="ax_default _默认样式">
+              <img id="u66960_img" class="img " src="images/日程管理/u64575.png"/>
+              <div id="u66960_text" class="text ">
+                <p><span>04&nbsp; 五四青年节</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (单元格) -->
+            <div id="u66961" class="ax_default _默认样式">
+              <img id="u66961_img" class="img " src="images/日程管理/u64581.png"/>
+              <div id="u66961_text" class="text ">
+                <p><span>05&nbsp; 初一</span></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u66962" class="ax_default _默认样式">
+            <img id="u66962_img" class="img " src="images/日程管理/u64582.png"/>
+            <div id="u66962_text" class="text ">
+              <p><span>放假</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u66963" class="ax_default _默认样式">
+            <img id="u66963_img" class="img " src="images/日程管理/u64582.png"/>
+            <div id="u66963_text" class="text ">
+              <p><span>放假</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u66964" class="ax_default _默认样式">
+            <img id="u66964_img" class="img " src="images/日程管理/u64582.png"/>
+            <div id="u66964_text" class="text ">
+              <p><span>放假</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u66965" class="ax_default _默认样式">
+            <img id="u66965_img" class="img " src="images/日程管理/u64585.png"/>
+            <div id="u66965_text" class="text ">
+              <p><span>今天</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u66966" class="ax_default _默认样式">
+            <img id="u66966_img" class="img " src="images/日程管理/u64582.png"/>
+            <div id="u66966_text" class="text ">
+              <p><span>放假</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u66967" class="ax_default _默认样式">
+            <img id="u66967_img" class="img " src="images/日程管理/u64582.png"/>
+            <div id="u66967_text" class="text ">
+              <p><span>放假</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u66968" class="ax_default _默认样式">
+            <img id="u66968_img" class="img " src="images/日程管理/u64582.png"/>
+            <div id="u66968_text" class="text ">
+              <p><span>放假</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u66969" class="ax_default _默认样式">
+            <img id="u66969_img" class="img " src="images/日程管理/u64582.png"/>
+            <div id="u66969_text" class="text ">
+              <p><span>放假</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u66970" class="ax_default _默认样式">
+            <img id="u66970_img" class="img " src="images/日程管理/u64590.png"/>
+            <div id="u66970_text" class="text ">
+              <p><span>上班</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u66971" class="ax_default _默认样式">
+            <img id="u66971_img" class="img " src="images/日程管理/u64590.png"/>
+            <div id="u66971_text" class="text ">
+              <p><span>上班</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u66972" class="ax_default" data-left="545" data-top="93" data-width="212" data-height="36">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u66973" class="ax_default _默认样式">
+          <img id="u66973_img" class="img " src="images/日程管理/u64593.png"/>
+          <div id="u66973_text" class="text ">
+            <p><span>2019年4月</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66974" class="ax_default _默认样式">
+        <img id="u66974_img" class="img " src="images/日程管理/u64594.png"/>
+        <div id="u66974_text" class="text ">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66975" class="ax_default _默认样式">
+        <img id="u66975_img" class="img " src="images/日程管理/u64595.png"/>
+        <div id="u66975_text" class="text ">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66976" class="ax_default _默认样式">
+        <img id="u66976_img" class="img " src="images/日程管理/u64597.png"/>
+        <div id="u66976_text" class="text ">
+          <p><span>今天</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66977" class="ax_default _默认样式">
+        <img id="u66977_img" class="img " src="images/考勤日历/u66977.png"/>
+        <div id="u66977_text" class="text ">
+          <p style="font-size:12px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 签到 09:00 </span></p><p style="font-size:14px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;font-size:12px;"> 使用考勤机签到</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66978" class="ax_default _默认样式">
+        <img id="u66978_img" class="img " src="images/考勤日历/u66977.png"/>
+        <div id="u66978_text" class="text ">
+          <p style="font-size:12px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 签退 16:00 </span></p><p style="font-size:14px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;font-size:12px;"> 使用考勤机签退</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66979" class="ax_default _默认样式">
+        <img id="u66979_img" class="img " src="images/考勤日历/u66977.png"/>
+        <div id="u66979_text" class="text ">
+          <p style="font-size:12px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 签到 09:00 </span></p><p style="font-size:14px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;font-size:12px;"> 使用考勤机签到</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66980" class="ax_default _默认样式">
+        <img id="u66980_img" class="img " src="images/考勤日历/u66977.png"/>
+        <div id="u66980_text" class="text ">
+          <p style="font-size:12px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 签退 16:00 </span></p><p style="font-size:14px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;font-size:12px;"> 使用考勤机签退</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66981" class="ax_default _默认样式">
+        <img id="u66981_img" class="img " src="images/考勤日历/u66977.png"/>
+        <div id="u66981_text" class="text ">
+          <p style="font-size:12px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 签到 09:00 </span></p><p style="font-size:14px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;font-size:12px;"> 使用考勤机签到</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66982" class="ax_default _默认样式">
+        <img id="u66982_img" class="img " src="images/考勤日历/u66977.png"/>
+        <div id="u66982_text" class="text ">
+          <p style="font-size:12px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 签退 16:00 </span></p><p style="font-size:14px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;font-size:12px;"> 使用考勤机签退</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66983" class="ax_default _默认样式">
+        <img id="u66983_img" class="img " src="images/考勤日历/u66977.png"/>
+        <div id="u66983_text" class="text ">
+          <p style="font-size:12px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 签到 09:00 </span></p><p style="font-size:14px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;font-size:12px;"> 使用考勤机签到</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66984" class="ax_default _默认样式">
+        <img id="u66984_img" class="img " src="images/考勤日历/u66977.png"/>
+        <div id="u66984_text" class="text ">
+          <p style="font-size:12px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 签退 16:00 </span></p><p style="font-size:14px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;font-size:12px;"> 使用考勤机签退</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66985" class="ax_default _默认样式">
+        <img id="u66985_img" class="img " src="images/考勤日历/u66977.png"/>
+        <div id="u66985_text" class="text ">
+          <p style="font-size:12px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 签到 09:00 </span></p><p style="font-size:14px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;font-size:12px;"> 使用考勤机签到</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66986" class="ax_default _默认样式">
+        <img id="u66986_img" class="img " src="images/考勤日历/u66977.png"/>
+        <div id="u66986_text" class="text ">
+          <p style="font-size:12px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 签退 16:00 </span></p><p style="font-size:14px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;font-size:12px;"> 使用考勤机签退</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66987" class="ax_default _默认样式">
+        <img id="u66987_img" class="img " src="images/考勤日历/u66977.png"/>
+        <div id="u66987_text" class="text ">
+          <p style="font-size:12px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 签到 09:00 </span></p><p style="font-size:14px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;font-size:12px;"> 使用考勤机签到</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66988" class="ax_default _默认样式">
+        <img id="u66988_img" class="img " src="images/考勤日历/u66977.png"/>
+        <div id="u66988_text" class="text ">
+          <p style="font-size:12px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 签退 16:00 </span></p><p style="font-size:14px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;font-size:12px;"> 使用考勤机签退</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66989" class="ax_default _默认样式">
+        <img id="u66989_img" class="img " src="images/考勤日历/u66977.png"/>
+        <div id="u66989_text" class="text ">
+          <p style="font-size:12px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 签到 09:00 </span></p><p style="font-size:14px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;font-size:12px;"> 使用考勤机签到</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66990" class="ax_default _默认样式">
+        <img id="u66990_img" class="img " src="images/考勤日历/u66977.png"/>
+        <div id="u66990_text" class="text ">
+          <p style="font-size:12px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 签退 16:00 </span></p><p style="font-size:14px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;font-size:12px;"> 使用考勤机签退</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66991" class="ax_default _默认样式">
+        <img id="u66991_img" class="img " src="images/考勤日历/u66977.png"/>
+        <div id="u66991_text" class="text ">
+          <p style="font-size:12px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 签到 09:00 </span></p><p style="font-size:14px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;font-size:12px;"> 使用考勤机签到</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66992" class="ax_default _默认样式">
+        <img id="u66992_img" class="img " src="images/考勤日历/u66977.png"/>
+        <div id="u66992_text" class="text ">
+          <p style="font-size:12px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 签退 16:00 </span></p><p style="font-size:14px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;font-size:12px;"> 使用考勤机签退</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66993" class="ax_default _默认样式">
+        <img id="u66993_img" class="img " src="images/考勤日历/u66977.png"/>
+        <div id="u66993_text" class="text ">
+          <p style="font-size:12px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 签到 09:00 </span></p><p style="font-size:14px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;font-size:12px;"> 使用考勤机签到</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66994" class="ax_default _默认样式">
+        <img id="u66994_img" class="img " src="images/考勤日历/u66977.png"/>
+        <div id="u66994_text" class="text ">
+          <p style="font-size:12px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 签退 16:00 </span></p><p style="font-size:14px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;font-size:12px;"> 使用考勤机签退</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66995" class="ax_default _默认样式">
+        <img id="u66995_img" class="img " src="images/考勤日历/u66977.png"/>
+        <div id="u66995_text" class="text ">
+          <p style="font-size:12px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 签到 09:00 </span></p><p style="font-size:14px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;font-size:12px;"> 使用考勤机签到</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66996" class="ax_default _默认样式">
+        <img id="u66996_img" class="img " src="images/考勤日历/u66977.png"/>
+        <div id="u66996_text" class="text ">
+          <p style="font-size:12px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 签退 16:00 </span></p><p style="font-size:14px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;font-size:12px;"> 使用考勤机签退</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66997" class="ax_default _默认样式">
+        <img id="u66997_img" class="img " src="images/考勤日历/u66977.png"/>
+        <div id="u66997_text" class="text ">
+          <p style="font-size:12px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 签到 09:00 </span></p><p style="font-size:14px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;font-size:12px;"> 使用考勤机签到</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66998" class="ax_default _默认样式">
+        <img id="u66998_img" class="img " src="images/考勤日历/u66977.png"/>
+        <div id="u66998_text" class="text ">
+          <p style="font-size:12px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 签退 16:00 </span></p><p style="font-size:14px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;font-size:12px;"> 使用考勤机签退</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u66999" class="ax_default _默认样式">
+        <img id="u66999_img" class="img " src="images/考勤日历/u66977.png"/>
+        <div id="u66999_text" class="text ">
+          <p style="font-size:12px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 签到 09:00 </span></p><p style="font-size:14px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;font-size:12px;"> 使用考勤机签到</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u67000" class="ax_default _默认样式">
+        <img id="u67000_img" class="img " src="images/考勤日历/u66977.png"/>
+        <div id="u67000_text" class="text ">
+          <p style="font-size:12px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 签退 16:00 </span></p><p style="font-size:14px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;font-size:12px;"> 使用考勤机签退</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u67001" class="ax_default _默认样式">
+        <img id="u67001_img" class="img " src="images/考勤日历/u67001.png"/>
+        <div id="u67001_text" class="text ">
+          <p><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 请假</span></p><p><span style="font-family:'微软雅黑';font-weight:400;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u67002" class="ax_default _默认样式">
+        <img id="u67002_img" class="img " src="images/考勤日历/u67001.png"/>
+        <div id="u67002_text" class="text ">
+          <p><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 请假</span></p><p><span style="font-family:'微软雅黑';font-weight:400;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u67003" class="ax_default _默认样式">
+        <img id="u67003_img" class="img " src="images/考勤日历/u67003.png"/>
+        <div id="u67003_text" class="text ">
+          <p><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 未签到打卡</span></p><p><span style="font-family:'微软雅黑';font-weight:400;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u67004" class="ax_default _默认样式">
+        <img id="u67004_img" class="img " src="images/考勤日历/u67003.png"/>
+        <div id="u67004_text" class="text ">
+          <p><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 未签退打卡</span></p><p><span style="font-family:'微软雅黑';font-weight:400;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u67005" class="ax_default _默认样式">
+        <img id="u67005_img" class="img " src="images/考勤日历/u67003.png"/>
+        <div id="u67005_text" class="text ">
+          <p style="font-size:12px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 签到 10:00&nbsp; 迟到1小时</span></p><p style="font-size:14px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;font-size:12px;"> 使用考勤机签到</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u67006" class="ax_default _默认样式">
+        <img id="u67006_img" class="img " src="images/考勤日历/u67003.png"/>
+        <div id="u67006_text" class="text ">
+          <p style="font-size:12px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;"> 签退 13:00&nbsp; 早退3小时</span></p><p style="font-size:14px;"><span style="font-family:'Font Awesome 5 Pro Solid', 'Font Awesome 5 Pro';font-weight:900;"></span><span style="font-family:'微软雅黑';font-weight:400;font-size:12px;"> 使用考勤机签退</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u67007" class="ax_default _默认样式">
+        <img id="u67007_img" class="img " src="images/考勤日历/u67007.png"/>
+        <div id="u67007_text" class="text ">
+          <p><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">2019年4月考勤统计&nbsp;&nbsp; </span><span style="font-family:'微软雅黑';font-weight:400;color:#4BCED0;">●</span><span style="font-family:'Microsoft Tai Le';font-weight:400;color:rgba(0, 0, 0, 0.427450980392157);"> </span><span style="font-family:'微软雅黑';font-weight:400;">正常：12天&nbsp;&nbsp; </span><span style="font-family:'微软雅黑';font-weight:400;color:rgba(255, 169, 76, 0.8);">●</span><span style="font-family:'Microsoft Tai Le';font-weight:400;color:rgba(0, 0, 0, 0.427450980392157);"> </span><span style="font-family:'微软雅黑';font-weight:400;">请假：1天&nbsp; &nbsp; </span><span style="font-family:'微软雅黑';font-weight:400;color:#0079FE;">●</span><span style="font-family:'Microsoft Tai Le';font-weight:400;color:rgba(0, 0, 0, 0.427450980392157);"> </span><span style="font-family:'微软雅黑';font-weight:400;">出差：0天&nbsp; &nbsp; </span><span style="font-family:'微软雅黑';font-weight:400;color:#FB6260;">●</span><span style="font-family:'Microsoft Tai Le';font-weight:400;color:rgba(0, 0, 0, 0.427450980392157);"> </span><span style="font-family:'微软雅黑';font-weight:400;">迟到：1次&nbsp;&nbsp; </span><span style="font-family:'微软雅黑';font-weight:400;color:#FB6260;">●</span><span style="font-family:'Microsoft Tai Le';font-weight:400;color:rgba(0, 0, 0, 0.427450980392157);"> </span><span style="font-family:'微软雅黑';font-weight:400;">早退：1次&nbsp; </span><span style="font-family:'微软雅黑';font-weight:400;color:#FB6260;">●</span><span style="font-family:'Microsoft Tai Le';font-weight:400;color:rgba(0, 0, 0, 0.427450980392157);"> </span><span style="font-family:'微软雅黑';font-weight:400;">缺卡：2次&nbsp;&nbsp; 工作时长：120小时&nbsp;&nbsp; 平均每天：8小时</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
